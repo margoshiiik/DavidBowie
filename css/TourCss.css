@@ -1,0 +1,109 @@
+.body {
+    background-color: rgb(0, 0, 0);
+}
+
+.content-table {
+    margin: auto;
+    table-layout: fixed;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: rgb(167, 52, 45);
+    color: white;
+    text-align: left;
+    line-height: 20px;
+    font-size: 90px;
+    border: 3px solid white;
+}
+
+thead th {
+    width: 30%;
+    text-align: center;
+    font-size: 40px;
+}
+
+th,
+td {
+    border-bottom: 1px solid white;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#countryTable,
+#dateTable,
+#priceTable,
+#ticketsTable {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#countryTable:hover,
+#dateTable:hover,
+#priceTable:hover,
+#ticketsTable:hover {
+    border-bottom: 4px solid white;
+    background-color: rgb(0, 86, 141);
+    color: white;
+}
+
+tbody .trr:nth-child(odd) {
+    font-size: 40px;
+    background-color: 141;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody .trr:nth-child(even) {
+    background-color: rgb(0, 86, 141);
+    color: rgb(167, 52, 45);
+}
+
+.poster {
+    z-index: 100;
+    display: block;
+    margin: auto;
+    margin-top: -190px;
+    margin-bottom: 40px;
+}
+
+.justDiv {
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 500px;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    border: 4px solid rgb(0, 86, 141);
+}
+
+.windowTour {
+    z-index: 9999;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(41, 41, 41);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #b61f1f;
+    display: none;
+    right: 0;
+    bottom: 20%;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    align-items: center;
+    background-color: rgb(0, 86, 141);
+}
+
+.windowTour:target {
+    display: block;
+}
+
+#map {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px; 
+    height: 500px; 
+}

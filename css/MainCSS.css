@@ -1,0 +1,461 @@
+.body {
+    background-color: black;
+}
+
+.m {
+    flex-direction: row;
+    color: rgb(196, 0, 0);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.menu {
+    margin-left: 5%;
+    font-size: 25px;
+    display: inline-block;
+    font-family: Impact, fantasyImpact, fantasy;
+    font-stretch: ultra-expanded;
+    text-shadow: 3px 1px 3px rgb(0, 86, 141);
+}
+
+.a {
+    text-decoration: none;
+    color: rgb(196, 0, 0);
+}
+
+.menu:hover,
+.arrow {
+    color: rgb(0, 86, 141);
+    text-shadow: 3px 1px 3px rgb(196, 0, 0);
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 650px;
+}
+
+.newAlbum {
+    width: 90%;
+    height: 500px;
+    background-color: rgb(167, 52, 45);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+
+.pic2 {
+    height: 500px;
+    float: right;
+}
+
+.new {
+    margin-left: 17%;
+    font-size: 50px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+    text-shadow: 8px 3px 2px rgb(0, 86, 141);
+}
+
+.preorder {
+    margin-left: 23%;
+    margin-top: 10%;
+    width: 20%;
+    height: 15%;
+    background-color: white;
+    font-size: 35px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: rgb(0, 86, 141);
+}
+
+.preorder:hover {
+    background-color: rgb(0, 86, 141);
+    font-size: 35px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+}
+
+.tour {
+    width: 90%;
+    height: 500px;
+    background-color: rgb(0, 86, 141);
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic3 {
+    margin-left: 3%;
+}
+
+.tourLabel {
+    float: right;
+    margin-left: 15%;
+    margin-right: 23%;
+    padding-top: 10%;
+    font-size: 50px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+    text-shadow: 8px 3px 2px rgb(167, 52, 45);
+}
+
+.tourButton {
+    float: right;
+    margin-right: 23%;
+    margin-top: -13%;
+    width: 20%;
+    height: 15%;
+    background-color: white;
+    font-size: 35px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: rgb(167, 52, 45);
+}
+
+.tourButton:hover {
+    background-color: rgb(167, 52, 45);
+    font-size: 35px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+}
+
+.shop {
+    font-size: 30px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+    margin-top: 30px;
+    padding-left: 35%;
+    text-shadow: 8px 3px 2px rgb(167, 52, 45);
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    background-color: rgb(167, 52, 45);
+    margin-left: 5px;
+}
+
+.element2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    background-color: rgb(0, 86, 141);
+    margin-left: 5px;
+}
+
+.clothes {
+    width: 75%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid white;
+}
+
+.clothes:hover {
+    width: 80%;
+    height: 230px;
+}
+
+.price {
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buy {
+    margin-top: 30px;
+    width: 60%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: rgb(167, 52, 45);
+    background-color: white;
+}
+
+.buy1 {
+    margin-top: 30px;
+    width: 60%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: rgb(0, 86, 141);
+    background-color: white;
+}
+
+.buy:hover {
+    background-color: rgb(167, 52, 45);
+    color: white;
+}
+
+.buy1:hover {
+    background-color: rgb(0, 86, 141);
+    color: white;
+}
+
+.toShop {
+    width: 15%;
+    height: 80px;
+    margin-left: 43%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: Impact, fantasyImpact, fantasy;
+    color: white;
+    background-color: rgb(0, 86, 141);
+}
+
+.toShop:hover {
+    background-color: white;
+    color: rgb(0, 86, 141);
+}
+
+.line {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 0;
+    border: 2px solid rgb(167, 52, 45);
+    background-color: rgb(167, 52, 45);
+    display: inline-block;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.s {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.s:hover {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+#winMusic {
+    z-index: 9999;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(41, 41, 41);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #b61f1f;
+    display: none;
+    right: 0;
+    bottom: 20%;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    align-items: center;
+    background-color: rgb(0, 86, 141);
+}
+
+#winMusic:target {
+    display: block;
+}
+
+.x {
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+.eye {
+    width: 100%;
+    height: 170px;
+}
+
+.mu1,
+.mu2,
+.mu3,
+.mu4,
+.mu5 {
+    width: 60%;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Impact, fantasyImpact, fantasy;
+    background-color: white;
+}
+
+.mu1:hover {
+    color: white;
+    background-color: rgb(110, 167, 11);
+}
+
+.mu2:hover {
+    color: white;
+    background-color: rgb(167, 52, 45);
+}
+
+.mu3:hover {
+    color: white;
+    background-color: rgb(0, 208, 255);
+}
+
+.mu4:hover {
+    color: white;
+    background-color: rgb(215, 84, 173);
+}
+
+.mu5:hover {
+    color: white;
+    background-color: rgb(68, 0, 255);
+}
+
+#pre {
+    z-index: 9999;
+    width: 30%;
+    height: 500px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(41, 41, 41);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #b61f1f;
+    display: none;
+    right: 0;
+    bottom: 20%;
+    left: 0;
+    margin: auto;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0, 86, 141);
+}
+
+#pre:target {
+    display: block;
+}
+
+.form {
+    font-size: 30px;
+    color: white;
+    font-family: Impact, fantasyImpact, fantasy;
+}
+
+.leave {
+    font-size: 30px;
+    color: white;
+    font-family: Impact, fantasyImpact, fantasy;
+    margin-bottom: 50px;
+}
+
+.in {
+    width: 50%;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.inB {
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    color: rgb(0, 86, 141);
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.inB:hover {
+    background-color: rgb(167, 52, 45);
+    color: white;
+}
+
+@media screen and (max-width: 1100px) {
+    .preorder{
+        float: left;
+        margin-left: 3%;
+        margin-top: 30%;
+        height: 100px;
+    }
+
+    .new{
+        display: none;
+    }
+    .m{
+        margin-left: 0%;
+    }
+
+    .tourLabel{
+        display: none;
+    }
+
+    .tourButton{
+        height: 120px;
+        margin-right: 23%;
+    margin-top: 20%;
+    }
+
+    .element2{
+        display: none;
+    }
+    .element { 
+        width: 35%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .tourLabel{
+        margin-left: 5%;
+        margin-right: 20%;
+        padding-top: 10%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .tourButton{
+        height: 120px;
+        margin-right: 5%;
+    margin-top: 20%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    .preorder{
+        float: left;
+        display: none;
+        margin-left: 0%;
+        margin-top: 30%;
+        height: 100px;
+    }
+
+    .new{
+        display: none;
+    }
+}

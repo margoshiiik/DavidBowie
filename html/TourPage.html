@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="C:\Users\margoshiiik\web\my project\css\TourCss.css" type="text/css">
+    <link rel="stylesheet" href="C:\Users\margoshiiik\web\my project\css\MainCss.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour</title>
+
+     <!-- leaflet -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <!-- lodash -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+</head>
+
+<body class="body">
+
+    <nav class="m">
+        <ul>
+            <a href="C:\Users\margoshiiik\web\my project\Main.html" class="a">
+                <li class="menu">Home</li>
+            </a>
+
+            <a class="a" href="C:\Users\margoshiiik\web\my project\html\NewsPage.html">
+                <li class="menu">News</li>
+            </a>
+            <a class="a" href="C:\Users\margoshiiik\web\my project\html\TourPage.html">
+                <li class="menu">Tour</li>
+            </a>
+            <a class="a" href="#winMusic">
+                <li class="menu">Music</li>
+            </a>
+            <a class="a" href="https://www.youtube.com/channel/UC8YgWcDKi1rLbQ1OtrOHeDw" target="_blank">
+                <li class="menu">Video</li>
+            </a>
+            <a class="a" href="C:\Users\margoshiiik\web\my project\html\Store.html" target="_blank">
+                <li class="menu">Shop</li>
+            </a>
+        </ul>
+    </nav>
+
+
+    <div class="justDiv"><img src="C:\Users\margoshiiik\web\my project\pics\poster.jpg" class="poster" alt=""></div>
+
+
+
+
+    <table class="content-table">
+        <thead>
+            <tr>
+                <th onclick="sortByCountry()" id="countryTable">Country</th>
+                <th onclick="sortByDate()" id="dateTable">Date</th>
+                <th onclick="sortByPrice()" id="priceTable">Price, $</th>
+                <th onclick="sortByTickets()" id="ticketsTable">Tickets left</th>
+            </tr>
+        </thead>
+        <tbody id="content-table"></tbody>
+
+
+    </table>
+
+    <div id="map"></div>
+
+    <a href="C:\Users\margoshiiik\web\my project\html\Store.html" target="_blank"><button class="toShop">Go to store</button></a>
+
+    <nav class="m">
+        <ul>
+            <a href="C:\Users\margoshiiik\web\my project\Main.html" class="a">
+                <li class="menu">Home</li>
+            </a>
+
+            <a class="a" href="C:\Users\margoshiiik\web\my project\html\NewsPage.html">
+                <li class="menu">News</li>
+            </a>
+            <a class="a" href="C:\Users\margoshiiik\web\my project\html\TourPage.html">
+                <li class="menu">Tour</li>
+            </a>
+            <a class="a" href="#winMusic">
+                <li class="menu">Music</li>
+            </a>
+            <a class="a" href="https://www.youtube.com/channel/UC8YgWcDKi1rLbQ1OtrOHeDw" target="_blank">
+                <li class="menu">Video</li>
+            </a>
+            <a class="a" href="C:\Users\margoshiiik\web\my project\html\Store.html" target="_blank">
+                <li class="menu">Shop</li>
+            </a>
+        </ul>
+    </nav>
+
+    <script src="C:\Users\margoshiiik\web\my project\js\scriptTour.js"></script>
+
+
+</body>
+
+</html>

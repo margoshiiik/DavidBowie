@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="C:\Users\margoshiiik\web\my project\css\StoreCss.css" type="text/css">
+    <link rel="stylesheet" href="C:\Users\margoshiiik\web\my project\css\MainCss.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+      <!-- lodash -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="m">
+            <ul>
+                <a class="a" href="C:\Users\margoshiiik\web\my project\Main.html">
+                    <li class="menu">Home</li>
+                </a>
+                <a class="a" href="C:\Users\margoshiiik\web\my project\html\NewsPage.html">
+                    <li class="menu">News</li>
+                </a>
+                <a class="a" href="C:\Users\margoshiiik\web\my project\html\TourPage.html">
+                    <li class="menu">Tour</li>
+                </a>
+                <a class="a" href="#winMusic">
+                    <li class="menu">Music</li>
+                </a>
+                <a class="a" href="https://www.youtube.com/channel/UC8YgWcDKi1rLbQ1OtrOHeDw" target="_blank">
+                    <li class="menu">Video</li>
+                </a>
+                <a class="a" href="C:\Users\margoshiiik\web\my project\html\Store.html" target="_blank">
+                    <li class="menu">Shop</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <div class="winMusic" id="winMusic">
+        <a href="#" class="x"><img src="C:\Users\margoshiiik\web\my project\pics\X.png" class="x" alt=""></a>
+        <img src="C:\Users\margoshiiik\web\my project\pics\eyes.jpg" class="eye" alt="">
+
+        <form>
+            <button class="mu1" id="musicButton" formaction="https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy">Listen in Spotify</button>
+        </form>
+
+        <form>
+            <button id="musicButton" class="mu2" formaction="https://music.youtube.com/channel/UCvY1eVE6lTebXsdFbbXUtkQ?feature=share">Listen in YouTube Music</button>
+        </form>
+
+        <form>
+            <button id="musicButton" class="mu3" formaction="https://play.google.com/store/apps/details?id=com.planeta.BowieMobile&hl=ru&gl=US">Listen in GooglePlay</button>
+        </form>
+
+        <form>
+            <button id="musicButton" class="mu4" formaction="https://music.apple.com/ru/artist/david-bowie/551695">Listen in iTunes</button>
+        </form>
+
+        <form>
+            <button id="musicButton" class="mu5" formaction="https://www.amazon.com/David-Bowie/e/B000AQ090A">Listen in Amazon Music</button>
+        </form>
+    </div>
+
+
+    <div class="filterDiv">
+        <h1 class="f">Filter</h1>
+        <details>
+            <summary>Color</summary>
+            <div class="check">
+                <input type="checkbox" id="black"><label for="">Black</label>
+                <input type="checkbox" id="white"><label for="">White</label>
+                <input type="checkbox" id="red"><label for="">Red</label>
+                <input type="checkbox" id="green"><label for="">Green</label>
+                <input type="checkbox" id="pink"><label for="">Pink</label>
+                <input type="checkbox" id="blue"><label for="">Blue</label>
+                <input type="checkbox" id="orange"><label for="">Orange</label>
+                <input type="checkbox" id="grey"><label for="">Grey</label>
+            </div>
+        </details>
+        <details>
+            <summary>Size</summary>
+            <input type="number" id = "size" class="sizeInput"><label for=""></label>
+        </details>
+        <details>
+            <summary>Price</summary>
+            <span>From</span><input type="number" id="from" class="sizeInput"><span >to</span><input id="to" class="sizeInput" type="number">
+        </details>
+
+        <button class="but" onclick="BigFilter()">Filter</button>
+    </div>
+
+    <div class="shopNav">
+        <button class="butNav" id="allBut" onclick="printAll()">ALL</button>
+        <button class="butNav" id="topBut" onclick="printTop()">TOP</button>
+        <button class="butNav" id="botomBut" onclick="printBottom()">BOTTOM</button>
+        <button class="butNav" id="accBut" onclick="printAcc()" >ACCESSORIES</button>
+        <button class="butNav" id="shoesBut" onclick="printShoes()">SHOES</button>
+
+    </div>
+
+    <div class="forSort">
+        <span class="sort">Sort By</span>
+        <button class="sortBut" id="sortByPrice" onclick="sortByPrice()">Price</button>
+        <button class="sortBut" id="sortBySize" onclick="sortBySize()">Size</button>
+    </div>
+
+    
+    <div class="wrapper" id="wrapper"></div>
+
+
+    
+
+    <script src="C:\Users\margoshiiik\web\my project\js\store.js"></script>
+</body>
+
+</html>
